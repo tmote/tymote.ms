@@ -109,6 +109,9 @@ define('WP_DEBUG', true);
 /* Multisite */
 define( 'WP_ALLOW_MULTISITE', true );
 
+/* Force SSL Admin */
+define('FORCE_SSL_ADMIN', true);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
