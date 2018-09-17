@@ -24,7 +24,7 @@ $connectstr_dbusername = '';
 $connectstr_dbpassword = '';
 
 foreach ($_SERVER as $key => $value) {
- if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
+ if (strpos($key, "defaultConnection") !== 0) {
  continue;
  }
  
