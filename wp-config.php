@@ -36,6 +36,7 @@ foreach ($_SERVER as $key => $value) {
 
 
 // ** MySQL settings - You can get this info from your web host ** //
+/*
 /** The name of the database for WordPress */
 define('DB_NAME', $connectstr_dbname);
 
@@ -53,6 +54,17 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+*/
+
+/** Testing direct connection strings for DB **/
+/** The name of the database for WordPress */
+define('DB_NAME', 'tymotewpnet');
+/** MySQL database username */
+define('DB_USER', 'tymoteadmin@tymote-wpnet-mysqldbserver');
+/** MySQL database password */
+define('DB_PASSWORD', 'M1cr050f+@zur3');
+/** MySQL hostname */
+define('DB_HOST', 'tymote-wpnet-mysqldbserver.mysql.database.azure.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.
