@@ -110,7 +110,7 @@ define('WP_DEBUG', true);
 define( 'WP_ALLOW_MULTISITE', true );
 
 /* Force SSL Admin */
-define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_ADMIN', false);
 
 /* That's all, stop editing! Happy blogging. */
 
